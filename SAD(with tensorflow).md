@@ -226,17 +226,3 @@ CeylonPlus/
 ---
 
 **© 2025 CeylonPlus*
-
-```
-
----
-
-✅ This version:  
-
-- **Explicitly highlights Deep Learning** (BERT, LSTM, GRU, DNN)  
-- Integrates Deep Learning into the **workflow, training, and evaluation**  
-- Maintains a **professional, judge-ready Markdown format**  
-- Shows explainability and ethical AI clearly  
-
- do that next?
-```
