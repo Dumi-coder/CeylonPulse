@@ -1,217 +1,225 @@
-```markdown
-# CeylonPlus: Real-Time Situational Awareness System for Sri Lanka
+---
 
-## 🚀 Overview
-CeylonPlus is a **real-time situational awareness platform** designed to monitor, classify, and forecast events across Sri Lanka. The system leverages **advanced machine learning**, **natural language processing**, and **trend forecasting** to provide actionable insights for stakeholders.
+````markdown
+# 🌟 CeylonPlus: Real-Time Situational Awareness System for Sri Lanka
 
-It processes signals from multiple sources (news, social media, and public reports) to provide:
-
-- **Signal Classification** (e.g., fuel shortage, floods, protests)
-- **Sentiment Analysis**
-- **Event Severity Scoring**
-- **Trend Forecasting**
-- **Ethical & Explainable Insights**
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
-## 📦 System Architecture
+## 🔹 Overview
 
-```
+CeylonPlus is a **real-time situational awareness platform** designed to monitor, classify, and forecast events across Sri Lanka. The system leverages **advanced machine learning (ML)**, **natural language processing (NLP)**, and **trend forecasting** to provide actionable insights for stakeholders.
 
+Key capabilities:
+
+- **Signal Classification** (e.g., fuel shortage, floods, protests)  
+- **Sentiment Analysis** (Positive / Neutral / Negative)  
+- **Event Severity Scoring** (0–1 scale)  
+- **Trend Forecasting** (LSTM for signal spikes)  
+- **Explainable & Ethical AI insights**  
+
+---
+
+## 🏗️ System Architecture
+
+```text
 SCRAPERS → NLP CLEANING → TENSORFLOW MODELS
-↓
-(Classification / Sentiment / Severity / Forecast)
-↓
-SHAP/LIME Explainability
-↓
-EVENT DETECTION ENGINE
-↓
-PESTLE + SWOT ENGINE
-↓
-INSIGHTS API
-↓
-DASHBOARD UI
-
+                                  ↓
+          (Classification / Sentiment / Severity / Forecast)
+                                  ↓
+                  SHAP/LIME Explainability
+                                  ↓
+                    EVENT DETECTION ENGINE
+                                  ↓
+                    PESTLE + SWOT ENGINE
+                                  ↓
+                         INSIGHTS API
+                                  ↓
+                          DASHBOARD UI
 ````
 
-### Components:
+**Components:**
 
 1. **Scrapers & Collectors**
-   - News websites, social media, government feeds
-   - Real-time and historical data collection
-   - Data stored in structured database (PostgreSQL / MongoDB)
+
+   * News websites, social media, government feeds
+   * Real-time and historical data collection
 
 2. **NLP Cleaning**
-   - Tokenization, stop-word removal, lemmatization
-   - Language normalization (Sinhala, Tamil, English)
-   - Feature extraction (TF-IDF, embeddings)
+
+   * Tokenization, stop-word removal, lemmatization
+   * Sinhala, Tamil, English normalization
+   * Feature extraction (TF-IDF, embeddings)
 
 3. **TensorFlow ML Models**
-   - **Signal Classification Model**: Categorizes 40 signal types
-   - **Sentiment Classifier**: Positive / Neutral / Negative
-   - **Severity Predictor**: Scores events 0–1
-   - **Trend Forecasting Model (LSTM)**: Predicts signal spikes
+
+   * **Signal Classification:** Categorizes 40+ signal types
+   * **Sentiment Classifier:** Positive / Neutral / Negative
+   * **Severity Predictor:** Scores events 0–1
+   * **Trend Forecasting (LSTM):** Predicts signal spikes
 
 4. **Explainability Layer**
-   - SHAP / LIME applied to all models
-   - Shows **why predictions were made**
-   - Example:
-     ```
-     Signal: “Protest Event”
-     Top contributing words: protest, crowd, demonstration, strike
-     ```
+
+   * SHAP / LIME to explain model predictions
+   * Highlights important words/features contributing to predictions
 
 5. **Event Detection Engine**
-   - Aggregates classified signals
-   - Combines severity & trends
-   - Filters duplicate or false alerts
 
-6. **PESTLE + SWOT Analysis Engine**
-   - Maps events to political, economic, social, technological, legal, environmental factors
-   - Provides strategic insights for stakeholders
-   - Example:
-     - Fuel shortage → Economic & Social signal
-     - Flood alert → Environmental & Social signal
+   * Aggregates classified signals and severity scores
+   * Filters duplicates and false alerts
+
+6. **PESTLE + SWOT Engine**
+
+   * Maps events to political, economic, social, technological, legal, environmental factors
+   * Provides strategic insights for stakeholders
 
 7. **Insights API**
-   - REST API for external dashboards
-   - Supports filtering by location, category, and severity
+
+   * REST API for dashboards or external apps
+   * Supports filtering by location, category, severity
 
 8. **Dashboard UI**
-   - Interactive map & charts
-   - Alerts & trend graphs
-   - Customizable for government or corporate users
+
+   * Interactive map, charts, trend graphs
+   * Customizable views for government or corporate users
 
 ---
 
 ## 🧠 Machine Learning Workflow
 
-### Data Pipeline
-1. **Data Collection** → structured database
-2. **Preprocessing** → tokenization, embeddings, missing value handling
-3. **Training**
-   - Train / Validation / Test split
-   - Cross-validation for stability
-   - Temporal split for time-series models
+### 1. Data Pipeline
 
-### Model Training
-- **Signal Classification:** TensorFlow / BERT
-- **Sentiment Analysis:** TensorFlow / LSTM
-- **Severity Prediction:** Dense Neural Network
-- **Trend Forecasting:** LSTM / GRU
+* Data Collection → structured database
+* Preprocessing → tokenization, embeddings, missing value handling
+* Train / Validation / Test split
+* Temporal split for time-series models
 
-#### Training Features:
-- Batching
-- Early stopping
-- Checkpointing
-- Regularization (Dropout, L2)
-- Data augmentation (text: synonym replacement, back translation)
+### 2. Model Training
 
-### Hyperparameter Tuning
-- Learning rate, batch size, optimizer selection
-- Sequence length, number of layers, neurons
-- Tools: Keras Tuner, Optuna (Random Search / Bayesian Optimization)
+| Model                 | Purpose                              | Framework         |
+| --------------------- | ------------------------------------ | ----------------- |
+| Signal Classification | Classify events into 40+ categories  | TensorFlow / BERT |
+| Sentiment Analysis    | Detect Positive / Neutral / Negative | TensorFlow / LSTM |
+| Severity Prediction   | Score event severity 0–1             | Dense NN          |
+| Trend Forecasting     | Predict signal spikes                | LSTM / GRU        |
 
-### Evaluation Metrics
+**Training Features:**
 
-| Model                  | Metric   | Score  |
-| ---------------------- | -------- | ------ |
-| Signal Classifier      | F1-score | 0.86   |
-| Sentiment Model        | Accuracy | 91%    |
-| Severity Predictor     | MAE      | 0.08   |
-| Trend Forecasting LSTM | MAPE     | 7.2%   |
+* Batching, checkpointing, early stopping
+* Regularization: Dropout, L2 weight decay
+* Optional data augmentation (synonym replacement, back translation)
+
+### 3. Hyperparameter Tuning
+
+* Learning rate, batch size, optimizer (Adam / RMSProp)
+* Sequence length, layers, neurons, dropout
+* Tools: **Keras Tuner**, **Optuna**
+* Strategies: Random Search / Bayesian Optimization
+
+### 4. Evaluation Metrics
+
+| Model                  | Metric   | Score |
+| ---------------------- | -------- | ----- |
+| Signal Classifier      | F1-score | 0.86  |
+| Sentiment Model        | Accuracy | 91%   |
+| Severity Predictor     | MAE      | 0.08  |
+| Trend Forecasting LSTM | MAPE     | 7.2%  |
 
 ---
 
 ## 🔍 Explainability & Ethical AI
 
-### Explainability
-- **SHAP / LIME** applied to all ML models
-- Highlights which features/words contributed to predictions
-- Enhances transparency for decision-makers
+**Explainability (SHAP / LIME):**
 
-### Ethical AI Principles
-- **Bias Mitigation:** Diverse news sources, district and language coverage
-- **Transparency:** Explainable models with SHAP/LIME
-- **Fairness:** No targeting political groups or individuals
-- **Privacy:** Only publicly available data
-- **Safety:** Risk-focused insights, no political opinions
-- **Human-in-the-loop:** Businesses interpret insights, system provides analysis
+* Highlights which features/words contributed to model predictions
+* Example:
+
+```text
+Signal: "Protest Event"
+Top contributing words: protest, crowd, demonstration, strike
+```
+
+**Ethical AI Principles:**
+
+* Bias mitigation: diverse news sources and geographic coverage
+* Transparency: explainable ML predictions
+* Fairness: no targeting political groups or individuals
+* Privacy: only publicly available data
+* Safety: risk-focused insights, not political opinions
+* Human-in-the-loop: stakeholders interpret insights
 
 ---
 
 ## ⚙️ Deployment & Tools
-- **Backend:** Python, TensorFlow, scikit-learn
-- **Database:** PostgreSQL / MongoDB
-- **Frontend:** ReactJS / VueJS / D3.js
-- **APIs:** REST for dashboard integration
-- **Explainability:** SHAP, LIME
-- **Hyperparameter Tuning:** Keras Tuner, Optuna
-- **Version Control:** Git / GitHub
 
----
-
-## 📝 Key Features Summary
-
-1. Real-time collection of signals from multiple sources
-2. NLP-powered signal classification & sentiment detection
-3. Severity scoring & trend forecasting
-4. Explainable predictions using SHAP / LIME
-5. Ethical AI principles embedded in design
-6. Integration with PESTLE & SWOT for strategic insights
-7. Interactive dashboard for visual monitoring
-
----
-
-## 🌐 Roadmap / Next Steps
-1. Complete full signals table (40+ categories)
-2. Integrate real-time scrapers with NLP pipeline
-3. Train & evaluate ML models
-4. Deploy ML models to production
-5. Build Insights API & Dashboard
-6. Continuous monitoring & hyperparameter tuning
-7. Add additional explainability dashboards for stakeholders
+* **Backend:** Python, TensorFlow, scikit-learn
+* **Database:** PostgreSQL / MongoDB
+* **Frontend:** ReactJS / VueJS / D3.js
+* **APIs:** REST for dashboard integration
+* **Explainability:** SHAP, LIME
+* **Hyperparameter Tuning:** Keras Tuner, Optuna
 
 ---
 
 ## 📂 Folder Structure (Example)
-````
 
+```
 CeylonPlus/
 │
 ├─ data/
 │   ├─ raw/
 │   └─ processed/
-│
 ├─ notebooks/
 │   └─ EDA, preprocessing, experiments.ipynb
-│
 ├─ models/
 │   ├─ classification/
 │   ├─ sentiment/
 │   ├─ severity/
 │   └─ forecasting/
-│
 ├─ src/
 │   ├─ scrapers/
 │   ├─ nlp/
 │   ├─ ml/
 │   ├─ api/
 │   └─ dashboard/
-│
 ├─ tests/
 ├─ requirements.txt
 └─ README.md
-
 ```
 
 ---
 
-This **README.md / SAD** is structured to impress judges, showing **ML maturity, ethical design, explainability, and system integration**.  
+## 🌐 Roadmap / Next Steps
+
+1. Complete full signals table (40+ categories)
+2. Integrate real-time scrapers with NLP pipeline
+3. Train & evaluate ML models
+4. Deploy ML models to production
+5. Build Insights API & Dashboard
+6. Continuous monitoring & hyperparameter tuning
+7. Add explainability dashboards for stakeholders
 
 ---
 
-If you want, I can also **create the next version with embedded code templates** for **all 4 ML models and SHAP/LIME integration**, ready to paste into `src/ml/` — fully functional but modular.  
+## 📌 Key Features
 
+* Real-time collection & processing of multi-source signals
+* NLP-powered classification & sentiment detection
+* Severity scoring & trend forecasting
+* Explainable ML using SHAP / LIME
+* Ethical AI principles embedded in design
+* Integration with PESTLE & SWOT for strategic insights
+* Interactive dashboards for visual monitoring
+
+---
+
+**© 2025 CeylonPlus | MIT License**
+
+```
+
+---
 Do you want me to do that next?
 ```
