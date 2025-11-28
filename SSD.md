@@ -305,12 +305,13 @@
 
 -  Priority: LOW
 
-##📌 SUMMARY TABLE (PESTLE Distribution)
--Category	Signals Count
--Political	8
--Economic	8
--Social	6
--Technological	5
--Legal	4
--Environmental	9
--TOTAL	40
+## 📌 SUMMARY TABLE (PESTLE Distribution)
+
+-  Category	Signals Count
+-  Political	8
+-  Economic	8
+-  Social	6
+-  Technological	5
+-  Legal	4
+-  Environmental	9
+-  TOTAL	40
