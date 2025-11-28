@@ -4,7 +4,7 @@ You can directly copy this into your project’s README.
 
 ---
 
-# # 📘 System Architecture Document (SAD v1.0)
+#  📘 System Architecture Document (SAD v1.0)
 
 ### **National Signal Intelligence System – Sri Lanka**
 
