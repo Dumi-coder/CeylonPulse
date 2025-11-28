@@ -1,0 +1,202 @@
+[
+    {
+        "Signal": "Government Policy Announcements",
+        "PESTLE": "Political",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Cabinet/Parliament Decisions",
+        "PESTLE": "Political",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Government Sector Strike Warnings",
+        "PESTLE": "Political",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Police/Security Alerts",
+        "PESTLE": "Political",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Election-related Discussions",
+        "PESTLE": "Political",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Foreign Policy / International Agreements",
+        "PESTLE": "Political",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Tax Revision Rumors",
+        "PESTLE": "Political",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Public Protests & Demonstrations",
+        "PESTLE": "Political",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Inflation Mentions",
+        "PESTLE": "Economic",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Fuel Shortage Mentions",
+        "PESTLE": "Economic",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Dollar Rate Discussions",
+        "PESTLE": "Economic",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Tourism Search Trend (Google Trends)",
+        "PESTLE": "Economic",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Food Price Spikes",
+        "PESTLE": "Economic",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Stock Market Volatility",
+        "PESTLE": "Economic",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Foreign Investment News",
+        "PESTLE": "Economic",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Currency Black Market Mentions",
+        "PESTLE": "Economic",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Crime & Safety Alerts",
+        "PESTLE": "Social",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Public Sentiment (Social Media)",
+        "PESTLE": "Social",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Migration / Visa Interest",
+        "PESTLE": "Social",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Public Health Discussions",
+        "PESTLE": "Social",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Viral Social Trends",
+        "PESTLE": "Social",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Cultural Event Mentions",
+        "PESTLE": "Social",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Power Outages (CEB)",
+        "PESTLE": "Technological",
+        "SWOT": "Weakness"
+    },
+    {
+        "Signal": "Telecom Outages",
+        "PESTLE": "Technological",
+        "SWOT": "Weakness"
+    },
+    {
+        "Signal": "Cyberattack Mentions",
+        "PESTLE": "Technological",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "E-commerce Growth Indicators",
+        "PESTLE": "Technological",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Digital Payments Failure Reports",
+        "PESTLE": "Technological",
+        "SWOT": "Weakness"
+    },
+    {
+        "Signal": "New Regulations Affecting Businesses",
+        "PESTLE": "Legal",
+        "SWOT": "Opportunity"
+    },
+    {
+        "Signal": "Court Rulings Impacting Industries",
+        "PESTLE": "Legal",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Import/Export Restriction Changes",
+        "PESTLE": "Legal",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Customs/Port Delays",
+        "PESTLE": "Legal",
+        "SWOT": "Weakness"
+    },
+    {
+        "Signal": "Rainfall Alerts",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Flood Warnings",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Heat Wave Alerts",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Landslide Warnings",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Cyclone Updates",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Air Quality Index Changes",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Drought Warnings",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    },
+    {
+        "Signal": "Water Supply Cuts (NWSDB)",
+        "PESTLE": "Environmental",
+        "SWOT": "Weakness"
+    },
+    {
+        "Signal": "Coastal Erosion / Tsunami Alerts",
+        "PESTLE": "Environmental",
+        "SWOT": "Threat"
+    }
+]
