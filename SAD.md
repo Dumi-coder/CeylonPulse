@@ -1,9 +1,3 @@
-Below is your **System Architecture Document (SAD v1.0)** in **perfect README.md format** — ready to paste into GitHub.
-
-You can directly copy this into your project’s README.
-
----
-
 #  📘 System Architecture Document (SAD v1.0)
 
 ### **National Signal Intelligence System – Sri Lanka**
@@ -16,7 +10,7 @@ You can directly copy this into your project’s README.
 
 ---
 
-# ## 📑 Table of Contents
+#  📑 Table of Contents
 
 1. [Overview](#overview)
 2. [High-Level Architecture](#high-level-architecture)
@@ -34,7 +28,7 @@ You can directly copy this into your project’s README.
 
 ---
 
-# ## 1. Overview
+#  1. Overview
 
 This system monitors **40 real-time signals** across Political, Economic, Social, Technological, Legal, and Environmental domains.
 
@@ -42,7 +36,7 @@ The system transforms raw information → cleaned data → events → insights f
 
 ---
 
-# ## 2. High-Level Architecture
+#  2. High-Level Architecture
 
 ```
 DATA SOURCES  
@@ -75,7 +69,7 @@ DASHBOARD (Web UI)
 
 ---
 
-# ## 3. Data Sources
+#  3. Data Sources
 
 ### **News**
 
@@ -105,7 +99,7 @@ DASHBOARD (Web UI)
 
 ---
 
-# ## 4. Data Pipeline
+#  4. Data Pipeline
 
 ### **4.1 Data Collection**
 
@@ -133,7 +127,7 @@ Structure:
 
 ---
 
-# ## 5. NLP Pipeline
+#  5. NLP Pipeline
 
 ### **5.1 Cleaning**
 
@@ -172,7 +166,7 @@ Extract:
 
 ---
 
-# ## 6. Event Detection Engine
+#  6. Event Detection Engine
 
 ### Each event must satisfy:
 
@@ -200,7 +194,7 @@ Extract:
 
 ---
 
-# ## 7. PESTLE Classification Engine
+#  7. PESTLE Classification Engine
 
 Uses mapping from SSD:
 
@@ -221,7 +215,7 @@ Uses mapping from SSD:
 
 ---
 
-# ## 8. SWOT Insight Engine
+#  8. SWOT Insight Engine
 
 Mapping:
 
@@ -248,7 +242,7 @@ Mapping:
 
 ---
 
-# ## 9. API Structure
+#  9. API Structure
 
 ### `/api/events`
 
@@ -272,7 +266,7 @@ Business insight summary.
 
 ---
 
-# ## 10. Dashboard Architecture
+#  10. Dashboard Architecture
 
 ### Panels:
 
@@ -297,7 +291,7 @@ Business insight summary.
 
 ---
 
-# ## 11. System Data Flow Diagram (ASCII)
+#  11. System Data Flow Diagram (ASCII)
 
 ```
 [ Scrapers ] --> [ Raw Data Store ]
@@ -317,7 +311,7 @@ Business insight summary.
 
 ---
 
-# ## 12. Tech Stack
+#  12. Tech Stack
 
 ### **Backend**
 
@@ -342,7 +336,7 @@ Business insight summary.
 
 ---
 
-# ## 13. Team Responsibilities
+#  13. Team Responsibilities
 
 ### 👤 **Member 1 – Data Engineer**
 
@@ -371,20 +365,3 @@ Business insight summary.
 * Visualizations
 
 ---
-
-# ✅ **SAD v1.0 is Ready**
-
-Your next step is:
-
-👉 **Start implementing scrapers & NLP based on this architecture.**
-If you want, I can now generate:
-
-### ✔ Code templates
-
-### ✔ Folder structure
-
-### ✔ API design
-
-### ✔ Dashboard UI mockup
-
-Just tell me: **“Next step.”**
