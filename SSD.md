@@ -6,7 +6,7 @@
 
 ### 1. Government Policy Announcements
 
--Why: Direct impact on tax, imports, exports, businesses
+-  Why: Direct impact on tax, imports, exports, businesses
 
 -Signal Specification DocumentSource: News, Ministry Website
 
