@@ -4,7 +4,7 @@
 
 **These reflect governmental, regulatory, and political stability factors.**
 
-1. Government Policy Announcements
+### 1. Government Policy Announcements
 
 -  Why: Direct impact on tax, imports, exports, businesses
 
@@ -20,7 +20,7 @@
 
 -  Priority: HIGH
 
-2. Cabinet/Parliament Decisions
+### 2. Cabinet/Parliament Decisions
 
 -  Why: Policy change → affects business operations
 
@@ -32,278 +32,278 @@
 
 -  Priority: HIGH
 
-3. Government Sector Strike Warnings
+### 3. Government Sector Strike Warnings
 
--Why: Direct operational disruption
+-  Why: Direct operational disruption
 
--Source: News, Union FB/Twitter
+-  Source: News, Union FB/Twitter
 
--PESTLE: P
+-  PESTLE: P
 
--Output: Operational Risk
+-  Output: Operational Risk
 
--Priority: HIGH
+-  Priority: HIGH
 
-4. Police/Security Alerts
+### 4. Police/Security Alerts
 
--Why: Impacts safety, movement
+-  Why: Impacts safety, movement
 
--PESTLE: P
+-  PESTLE: P
 
--Output: Risk
+-  Output: Risk
 
--Priority: HIGH
+-  Priority: HIGH
 
-5. Election-related Discussions
+### 5. Election-related Discussions
 
--Why: Predicts instability
+-  Why: Predicts instability
 
--PESTLE: P
+-  PESTLE: P
 
--Priority: MEDIUM
+- Priority: MEDIUM
 
 6. Foreign Policy / International Agreements
 
--Why: Imports/exports, tourism
+-  Why: Imports/exports, tourism
 
--PESTLE: P
+-  PESTLE: P
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 7. Tax Revision Rumors
 
--Why: Direct economic impact
+-  Why: Direct economic impact
 
--PESTLE: P
+-  PESTLE: P
 
--Priority: HIGH
+-  Priority: HIGH
 
 8. Public Protests & Demonstrations
 
--Why: Traffic, business closures
+-  Why: Traffic, business closures
 
--PESTLE: P
+-  PESTLE: P
 
--Priority: HIGH
+-  Priority: HIGH
 
 ##   ECONOMIC SIGNALS (E)
 9. Inflation Mentions
 
--Why: Consumer spending power
+-  Why: Consumer spending power
 
--Source: News + Twitter
+-  Source: News + Twitter
 
--Detect: Keyword trends
+-  Detect: Keyword trends
 
--Output: Economic Indicator
+-  Output: Economic Indicator
 
--Priority: HIGH
+-  Priority: HIGH
 
 10. Fuel Shortage Mentions
 
--Why: Logistics, mobility
+-  Why: Logistics, mobility
 
--Output: Operational Risk
+-  Output: Operational Risk
 
--Priority: HIGH
+-  Priority: HIGH
 
 11. Dollar Rate Discussions
 
--Why: Imports, cost
+-  Why: Imports, cost
 
--Detect: Frequency spikes
+-  Detect: Frequency spikes
 
--Priority: HIGH
+-  Priority: HIGH
 
 12. Tourism Search Trend (Google Trends)
 
--Why: Hotel/retail opportunity
+-  Why: Hotel/retail opportunity
 
--Output: Opportunity
+-  Output: Opportunity
 
--Priority: HIGH
+-  Priority: HIGH
 
 13. Food Price Spikes
 
--Why: Retail & consumer stress
+-  Why: Retail & consumer stress
 
--Source: News
+-  Source: News
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 14. Stock Market Volatility
 
--Why: Business investor confidence
+-  Why: Business investor confidence
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 15. Foreign Investment News
 
--Why: Sector opportunities
+-  Why: Sector opportunities
 
--Priority: LOW
+-  Priority: LOW
 
 16. Currency Black Market Mentions
 
--Why: Informal economy changes
+-  Why: Informal economy changes
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 ##   SOCIAL SIGNALS (S)
 17. Crime & Safety Alerts
 
--Why: Travel & movement risks
+-  Why: Travel & movement risks
 
--Source: News
+-  Source: News
 
--Priority: HIGH
+-  Priority: HIGH
 
 18. Public Sentiment (Social Media)
 
--Why: Demand, reactions
+-  Why: Demand, reactions
 
--Sentiment model
+-  Sentiment model
 
--Priority: HIGH
+-  Priority: HIGH
 
 19. Migration / Visa Interest
 
--Why: Brain drain → labor availability
+-  Why: Brain drain → labor availability
 
--Source: Google Trends
+-  Source: Google Trends
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 20. Public Health Discussions
 
--Why: Disease outbreaks affect business
+-  Why: Disease outbreaks affect business
 
--Priority: HIGH
+-  Priority: HIGH
 
 21. Viral Social Trends
 
--Why: Consumer behavior
+-  Why: Consumer behavior
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 22. Cultural Event Mentions
 
--Why: Retail & tourism impacts
+-  Why: Retail & tourism impacts
 
--Priority: LOW
+-  Priority: LOW
 
 ## TECHNOLOGICAL SIGNALS (T)
 23. Power Outages (CEB)
 
--Why: Direct business disruption
+-  Why: Direct business disruption
 
--Priority: HIGH
+-  Priority: HIGH
 
 24. Telecom Outages
 
--Why: Internet downtime impacts all businesses
+-  Why: Internet downtime impacts all businesses
 
--Source: Users + social media
+-  Source: Users + social media
 
--Priority: HIGH
+-  Priority: HIGH
 
 25. Cyberattack Mentions
 
--Why: Security risk
+-  Why: Security risk
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 26. E-commerce Growth Indicators
 
--Why: Market opportunity
+-  Why: Market opportunity
 
--Priority: LOW
+-  Priority: LOW
 
 27. Digital Payments Failure Reports
 
--Why: Retail operations
+-  Why: Retail operations
 
--Priority: HIGH
+-  Priority: HIGH
 
 ## LEGAL SIGNALS (L)
 28. New Regulations Affecting Businesses
 
--Why: Compliance
+-  Why: Compliance
 
--Priority: HIGH
+-  Priority: HIGH
 
 29. Court Rulings Impacting Industries
 
--Why: Legal operational shifts
+-  Why: Legal operational shifts
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 30. Import/Export Restriction Changes
 
--Why: Supply chain effects
+-  Why: Supply chain effects
 
--Priority: HIGH
+-  Priority: HIGH
 
 31. Customs/Port Delays
 
--Why: Logistics
+-  Why: Logistics
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 ##  ENVIRONMENTAL SIGNALS (E)
 32. Rainfall Alerts
 
--Why: Delivery + flooding
+-  Why: Delivery + flooding
 
--Priority: HIGH
+-  Priority: HIGH
 
 33. Flood Warnings
 
--Why: Heavy business disruption
+-  Why: Heavy business disruption
 
--Priority: HIGH
+-  Priority: HIGH
 
 34. Heat Wave Alerts
 
--Why: Tourism + energy usage
+-  Why: Tourism + energy usage
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 35. Landslide Warnings
 
--Why: Major logistics risk
+-  Why: Major logistics risk
 
--Priority: HIGH
+-  Priority: HIGH
 
 36. Cyclone Updates
 
--Why: Severe disruptions
+-  Why: Severe disruptions
 
--Priority: HIGH
+-  Priority: HIGH
 
 37. Air Quality Index Changes
 
--Why: Health & public movement
+-  Why: Health & public movement
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 38. Drought Warnings
 
--Why: Agriculture & water supply
+-  Why: Agriculture & water supply
 
--Priority: MEDIUM
+-  Priority: MEDIUM
 
 39. Water Supply Cuts (NWSDB)
 
--Why: Businesses & households impacted
+-  Why: Businesses & households impacted
 
--Priority: HIGH
+-  Priority: HIGH
 
 40. Coastal Erosion / Tsunami Alerts
 
--Why: Tourism, fisheries
+-  Why: Tourism, fisheries
 
--Priority: LOW
+-  Priority: LOW
 
 ##📌 SUMMARY TABLE (PESTLE Distribution)
 -Category	Signals Count
