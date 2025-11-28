@@ -1,6 +1,6 @@
 # Signal Specification Document
 
-##🅰️ POLITICAL SIGNALS (P)
+##  🅰️ POLITICAL SIGNALS (P)
 
 **These reflect governmental, regulatory, and political stability factors.**
 
@@ -86,7 +86,7 @@ PESTLE: P
 
 Priority: HIGH
 
-##🅱️ ECONOMIC SIGNALS (E)
+##  🅱️ ECONOMIC SIGNALS (E)
 9. Inflation Mentions
 
 Why: Consumer spending power
@@ -149,7 +149,7 @@ Why: Informal economy changes
 
 Priority: MEDIUM
 
-##🅲 SOCIAL SIGNALS (S)
+##  🅲 SOCIAL SIGNALS (S)
 17. Crime & Safety Alerts
 
 Why: Travel & movement risks
