@@ -1,6 +1,3 @@
----
-
-````markdown
 # 🌟 CeylonPlus: Real-Time Situational Awareness System for Sri Lanka
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
@@ -218,8 +215,4 @@ CeylonPlus/
 
 **© 2025 CeylonPlus | MIT License**
 
-```
-
----
-Do you want me to do that next?
 ```
