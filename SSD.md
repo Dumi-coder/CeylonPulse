@@ -8,29 +8,29 @@
 
 -  Why: Direct impact on tax, imports, exports, businesses
 
--Signal Specification DocumentSource: News, Ministry Website
+- Signal Specification DocumentSource: News, Ministry Website
 
--Detect: Keyword spikes (“policy”, “tax”, “cabinet approves”, “budget”)
+-  Detect: Keyword spikes (“policy”, “tax”, “cabinet approves”, “budget”)
 
--PESTLE: P
+-  PESTLE: P
 
--Output: National Activity
+-  Output: National Activity
 
--Frequency: Every 1 hour
+-  Frequency: Every 1 hour
 
--Priority: HIGH
+-  Priority: HIGH
 
 2. Cabinet/Parliament Decisions
 
--Why: Policy change → affects business operations
+-  Why: Policy change → affects business operations
 
--Detection: Topic modeling + keyword detection
+-  Detection: Topic modeling + keyword detection
 
--PESTLE: P
+-  PESTLE: P
 
--Output: National Activity
+-  Output: National Activity
 
--Priority: HIGH
+-  Priority: HIGH
 
 3. Government Sector Strike Warnings
 
