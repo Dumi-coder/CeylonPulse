@@ -1,25 +1,14 @@
-# CeylonPulse
-Real-time situational awareness platform for Sri Lankan businesses.  Monitors news, social media &amp; public data to provide PESTLE+SWOT business intelligence.
-
 # CeylonPulse 🇱🇰
 
 **Real-time Situational Awareness & Business Intelligence Platform for Sri Lanka**
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.23%2B-red)](https://streamlit.io)
-[![MongoDB](https://img.shields.io/badge/MongoDB-5.0%2B-green)](https://mongodb.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/your-username/CeylonPulse)
-
 ## 👥 Team Structure
 
-### 🎨 **Dashboard Team** (2 Members)
-- **Frontend Developer** - Streamlit UI, visualizations, user experience
-- **Dashboard Architect** - Layout design, component integration, deployment
-
-### 🔧 **Backend & Analysis Team** (2 Members) 
-- **Data Engineer** - Data pipelines, APIs, database, infrastructure
-- **Analysis Specialist** - PESTLE/SWOT engines, algorithms, business logic
+### **Backend & Analysis Team** (2 Members) 
+- Dumindu ,  Kavindu
+  
+### **Dashboard Team** 
+- Dimath  ,  Harshad
 
 ## 🎯 Overview
 
