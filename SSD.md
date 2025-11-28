@@ -4,7 +4,7 @@
 
 **These reflect governmental, regulatory, and political stability factors.**
 
-### 1. Government Policy Announcements
+1. Government Policy Announcements
 
 -  Why: Direct impact on tax, imports, exports, businesses
 
