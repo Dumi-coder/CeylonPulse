@@ -4,7 +4,7 @@
 
 ## 👥 Team Structure
 
-### **Backend & Analysis Team** (2 Members) 
+### **Backend & Analysis Team** 
 - Dumindu ,  Kavindu
   
 ### **Dashboard Team** 
