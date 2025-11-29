@@ -26,6 +26,13 @@ def main():
     db_type = os.getenv('DB_TYPE', 'json')  # 'postgres', 'mongodb', or 'json'
     db_connection = os.getenv('DB_CONNECTION_STRING', None)
     
+    # Check for Hugging Face token
+    hf_token = os.getenv('HUGGINGFACE_API_TOKEN', '')
+    if hf_token:
+        print(f"✅ Hugging Face token found (for better API access)")
+    else:
+        print("⚠️ No Hugging Face token - using public API (may have rate limits)")
+    
     print("=" * 60)
     print("CeylonPulse Data Collector")
     print("=" * 60)

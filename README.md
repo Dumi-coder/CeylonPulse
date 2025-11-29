@@ -43,6 +43,34 @@ CeylonPulse is an intelligent platform that monitors real-time socio-economic si
 - **Risk & Opportunity Alerts**: Early warnings and positive trend detection
 - **Industry-specific Intelligence**: Retail, Tourism, Manufacturing, Technology
 
+## 🚀 Quick Start
+
+### Run Data Collection
+
+**Option 1: Google Colab (Recommended)**
+1. Upload `CeylonPulse_DataCollection.ipynb` to Google Colab
+2. Run all cells sequentially
+3. Check output for ✅ success messages
+
+**Option 2: Local Python**
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run data collection
+python run_collector.py
+
+# Or test system first
+python test_system.py
+```
+
+**For detailed instructions, see:**
+- `RUNNING_GUIDE.md` - Complete running guide
+- `COLAB_SETUP.md` - Colab-specific setup
+- `MISTRAL_SETUP.md` - Mistral 7B setup
+
+---
+
 ## 🏗️ Architecture
 
 ```mermaid
