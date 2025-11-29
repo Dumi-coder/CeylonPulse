@@ -73,7 +73,7 @@ DASHBOARD (Web UI)
 
 ### **News**
 
-* DailyMirror, Newswire, Ada Derana, FT.lk
+*   Ada Derana,EconomyNext
 
 ### **Social Media**
 
@@ -82,9 +82,9 @@ DASHBOARD (Web UI)
 ### **Government**
 
 * Met Department
-* Disaster Management Center
 * CEB (Power Outage)
 * NWSDB (Water Supply)
+* Central Bank
 * Parliament & Cabinet updates
 
 ### **Search Trends**
@@ -95,7 +95,7 @@ DASHBOARD (Web UI)
 
 * Advocata
 * BRS Equity Research
-* John Keells Research
+
 
 ---
 

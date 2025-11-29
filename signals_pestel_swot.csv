@@ -1,0 +1,41 @@
+Signal,PESTLE,SWOT
+Government Policy Announcements,Political,Opportunity
+Cabinet/Parliament Decisions,Political,Opportunity
+Government Sector Strike Warnings,Political,Threat
+Police/Security Alerts,Political,Threat
+Election-related Discussions,Political,Threat
+Foreign Policy / International Agreements,Political,Opportunity
+Tax Revision Rumors,Political,Threat
+Public Protests & Demonstrations,Political,Threat
+Inflation Mentions,Economic,Threat
+Fuel Shortage Mentions,Economic,Threat
+Dollar Rate Discussions,Economic,Threat
+Tourism Search Trend (Google Trends),Economic,Opportunity
+Food Price Spikes,Economic,Threat
+Stock Market Volatility,Economic,Threat
+Foreign Investment News,Economic,Opportunity
+Currency Black Market Mentions,Economic,Threat
+Crime & Safety Alerts,Social,Threat
+Public Sentiment (Social Media),Social,Opportunity
+Migration / Visa Interest,Social,Threat
+Public Health Discussions,Social,Threat
+Viral Social Trends,Social,Opportunity
+Cultural Event Mentions,Social,Opportunity
+Power Outages (CEB),Technological,Weakness
+Telecom Outages,Technological,Weakness
+Cyberattack Mentions,Technological,Threat
+E-commerce Growth Indicators,Technological,Opportunity
+Digital Payments Failure Reports,Technological,Weakness
+New Regulations Affecting Businesses,Legal,Opportunity
+Court Rulings Impacting Industries,Legal,Threat
+Import/Export Restriction Changes,Legal,Threat
+Customs/Port Delays,Legal,Weakness
+Rainfall Alerts,Environmental,Threat
+Flood Warnings,Environmental,Threat
+Heat Wave Alerts,Environmental,Threat
+Landslide Warnings,Environmental,Threat
+Cyclone Updates,Environmental,Threat
+Air Quality Index Changes,Environmental,Threat
+Drought Warnings,Environmental,Threat
+Water Supply Cuts (NWSDB),Environmental,Weakness
+Coastal Erosion / Tsunami Alerts,Environmental,Threat
