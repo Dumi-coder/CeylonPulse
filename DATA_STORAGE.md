@@ -337,7 +337,7 @@ zip -r data_backup_$(date +%Y%m%d).zip data/
 | **Colab Drive** | Combined | `/content/drive/MyDrive/CeylonPulse/data/` |
 | **PostgreSQL** | Tables | `raw_articles`, `processed_articles`, `signals` |
 | **MongoDB** | Collections | `raw_articles`, `processed_articles` |
-
+git push origin main --force
 ---
 
 ## 🚀 Quick Access
