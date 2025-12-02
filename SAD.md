@@ -334,34 +334,4 @@ Business insight summary.
 * MongoDB / PostgreSQL
 * Or simple JSON files if rushed
 
----
 
-#  13. Team Responsibilities
-
-### 👤 **Member 1 – Data Engineer**
-
-* All scrapers
-* Data standardization
-* API fetchers
-
-### 👤 **Member 2 – NLP/ML Engineer**
-
-* NER
-* Keyword extraction
-* Clustering
-* Event detection
-
-### 👤 **Member 3 – Insight Engineer**
-
-* PESTLE engine
-* SWOT logic
-* Scoring system
-* Recommendations
-
-### 👤 **Member 4 – Frontend Engineer**
-
-* Dashboard
-* API integration
-* Visualizations
-
----
