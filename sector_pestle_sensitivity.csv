@@ -1,0 +1,21 @@
+Sector,Political,Economic,Social,Technological,Legal,Environmental
+Agriculture & Plantation,4,5,3,2,2,5
+Food & Beverage Manufacturing,3,5,3,3,3,4
+Apparel & Textile Manufacturing,4,5,3,3,4,3
+Construction & Infrastructure,5,4,2,3,4,4
+Real Estate & Property Development,4,4,3,3,5,3
+Retail & Wholesale Trade,3,5,4,3,3,2
+Transportation & Logistics,5,5,3,4,4,4
+"Tourism, Hotels & Hospitality",5,4,5,3,3,5
+Healthcare & Pharmaceuticals,4,4,5,4,5,3
+"Banking, Finance & Insurance",4,5,3,5,5,2
+"IT, Software & Digital Services",2,3,3,5,3,1
+Telecommunications & Media,3,4,4,5,4,2
+"Energy, Power & Utilities",5,5,2,3,5,5
+Education & Training,3,3,5,4,4,2
+General Manufacturing (Industrial),4,5,2,3,3,3
+Mining & Natural Resources,4,4,2,2,4,5
+Agriculture-Technology (AgriTech),2,3,2,5,3,4
+"Security, Legal & Professional Services",3,3,3,3,5,1
+"Entertainment, Sports & Recreation",2,3,5,3,3,2
+Transport Services & Public Mobility,5,4,4,3,4,4
